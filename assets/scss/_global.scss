@@ -1,0 +1,22 @@
+.slick-slider {
+  .slick-list {
+    .slick-track {
+      .slick-slide {
+        padding: 1rem;
+      }
+    }
+  }
+  .slick-dots {
+    li {
+      width: 0.5rem;
+
+      button {
+        border-radius: 0.25rem;
+      }
+      &.slick-active {
+        width: 1rem;
+        height: 0.5rem;
+      }
+    }
+  }
+}
